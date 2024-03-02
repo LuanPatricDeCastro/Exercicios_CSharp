@@ -1,0 +1,14 @@
+C:\Users\luanp\Documents\GitHub - Repositório\Exercícios_C#\Exercicios_CSharp\Exercício_15\bin\Debug\net7.0\Exercício_15.exe
+C:\Users\luanp\Documents\GitHub - Repositório\Exercícios_C#\Exercicios_CSharp\Exercício_15\bin\Debug\net7.0\Exercício_15.deps.json
+C:\Users\luanp\Documents\GitHub - Repositório\Exercícios_C#\Exercicios_CSharp\Exercício_15\bin\Debug\net7.0\Exercício_15.runtimeconfig.json
+C:\Users\luanp\Documents\GitHub - Repositório\Exercícios_C#\Exercicios_CSharp\Exercício_15\bin\Debug\net7.0\Exercício_15.dll
+C:\Users\luanp\Documents\GitHub - Repositório\Exercícios_C#\Exercicios_CSharp\Exercício_15\bin\Debug\net7.0\Exercício_15.pdb
+C:\Users\luanp\Documents\GitHub - Repositório\Exercícios_C#\Exercicios_CSharp\Exercício_15\obj\Debug\net7.0\Exercício_15.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\luanp\Documents\GitHub - Repositório\Exercícios_C#\Exercicios_CSharp\Exercício_15\obj\Debug\net7.0\Exercício_15.AssemblyInfoInputs.cache
+C:\Users\luanp\Documents\GitHub - Repositório\Exercícios_C#\Exercicios_CSharp\Exercício_15\obj\Debug\net7.0\Exercício_15.AssemblyInfo.cs
+C:\Users\luanp\Documents\GitHub - Repositório\Exercícios_C#\Exercicios_CSharp\Exercício_15\obj\Debug\net7.0\Exercício_15.csproj.CoreCompileInputs.cache
+C:\Users\luanp\Documents\GitHub - Repositório\Exercícios_C#\Exercicios_CSharp\Exercício_15\obj\Debug\net7.0\Exercício_15.dll
+C:\Users\luanp\Documents\GitHub - Repositório\Exercícios_C#\Exercicios_CSharp\Exercício_15\obj\Debug\net7.0\refint\Exercício_15.dll
+C:\Users\luanp\Documents\GitHub - Repositório\Exercícios_C#\Exercicios_CSharp\Exercício_15\obj\Debug\net7.0\Exercício_15.pdb
+C:\Users\luanp\Documents\GitHub - Repositório\Exercícios_C#\Exercicios_CSharp\Exercício_15\obj\Debug\net7.0\Exercício_15.genruntimeconfig.cache
+C:\Users\luanp\Documents\GitHub - Repositório\Exercícios_C#\Exercicios_CSharp\Exercício_15\obj\Debug\net7.0\ref\Exercício_15.dll
