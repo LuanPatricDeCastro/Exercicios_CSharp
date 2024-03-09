@@ -30,21 +30,21 @@ if(c < 0)
 }
 
 menorvalor = a;
-if(b < a)
+if(b < a && c > b)
 {
     menorvalor = b;
 }
-else if(c < a)
+else if(c < a && b > c)
 {
     menorvalor = c; 
 }
 
 maiorvalor = a;
-if(b > a)
+if(b > a && c < b)
 {
     maiorvalor = b;
 }
-else if(c > a)
+else if(c > a && c > b)
 {
     maiorvalor = c;
 }
@@ -52,5 +52,5 @@ else if(c > a)
 multiplicar = menorvalor * maiorvalor;
 dividir = maiorvalor / menorvalor;
 
-Console.Write("O resultado da multiplicação é: {0}", multiplicar);
-Console.Write("O resultado da divisão é: {0}", dividir);
+Console.WriteLine("O resultado da multiplicação é: {0}", multiplicar);
+Console.WriteLine("O resultado da divisão é: {0}", dividir);
