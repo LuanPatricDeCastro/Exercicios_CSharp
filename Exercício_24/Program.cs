@@ -4,44 +4,70 @@
 // 3 – Verificar se a média dos dois números é maior ou igual a 7.
 // 4 – Sair
 
-using System.Formats.Asn1;
-using System.Net.Http.Headers;
 
-int valor1, valor2, operacao, media;
+using Microsoft.VisualBasic;
 
-Console.Write("Informe o primeiro número inteiro: ");
-valor1 = Convert.ToInt32(Console.ReadLine());
+int valor1, valor2, operacao, resultado;
 
-Console.Write("Informe o segundo número inteiro: ");
-valor2 = Convert.ToInt32(Console.ReadLine());
-
-Console.WriteLine("Escolha a operação a ser realizada: ");
+Console.WriteLine("Operações disponíveis: ");
 Console.WriteLine("1 - Verificar se um dos números lidos é múltiplo do outro.");
 Console.WriteLine("2 - Verificar se os dois números lidos são pares.");
 Console.WriteLine("3 - Verificar se a média dos dois números é maior ou igual a 7.");
 Console.WriteLine("4 - Sair");
-operacao = Convert.ToInt32(Console.ReadLine());
 
-media = (valor1 + valor2) / 2;
-  
-if(operacao == 1 || valor1 == valor2 * valor2 || valor2 == valor1 * valor1 ) 
-{
-    Console.WriteLine("Um dos números é múltiplo do outro.");
+Console.WriteLine("Escolha uma operação a ser realizada: ");
+operacao = int.Parse(Console.ReadLine());
 
-}
- else if (operacao == 2 && valor1 % 2 == 0 && valor2 % 2 == 0 )
+Console.Write("Informe o primeiro número inteiro: ");
+valor1 = int.Parse(Console.ReadLine());
+
+Console.Write("Informe o segundo número inteiro: ");
+valor2 = int.Parse(Console.ReadLine());
+
+switch (operacao)
 {
-    Console.WriteLine("Os dois números informados são pares.");
-} else {
-    Console.WriteLine("Os números não são pares.");
-} 
-else if (operacao == 3 && media > 7)
-{
-    Console.WriteLine("A média é maior do que 7");
-} else {
-    Console.WriteLine("A média é inferior a 7.");
-}
-else if(operacao == 4)
-{
-    Console.WriteLine("Sair da aplicação");
+    case 1:
+        {
+            if(valor1 * valor1 == valor2 || valor2 * valor2 == valor1)
+            {
+                Console.WriteLine("Um dos números lidos é multiplo do outro.");
+            }
+            else
+            {
+                Console.WriteLine("Nenhum dos números informados é multiplo do outro.");
+            }
+            break;
+        }
+
+    case 2:
+    {
+        if(valor1 % 2 == 0 & valor2 % 2 == 0)
+        {
+            Console.WriteLine("Os dois números lidos são pares");
+        }
+        else 
+        {
+            Console.WriteLine("Os números informados não são pares.");
+        }
+        break;
+    }    
+
+    case 3:
+    {
+        if( (valor1 + valor2) / 2 >= 7)
+        {
+            Console.WriteLine("A média dos números é maior do que 7");
+        }
+        else {
+            Console.WriteLine("A média é inferior a 7.");
+        }
+        break;
+
+    }
+
+    case 4:
+    {
+        Console.WriteLine("Sair da aplicação.");
+        break;
+    }
 }
