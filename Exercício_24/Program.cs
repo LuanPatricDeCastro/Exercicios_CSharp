@@ -41,7 +41,7 @@ switch (operacao)
 
     case 2:
     {
-        if(valor1 % 2 == 0 & valor2 % 2 == 0)
+        if(valor1 % 2 == 0 && valor2 % 2 == 0)
         {
             Console.WriteLine("Os dois números lidos são pares");
         }
